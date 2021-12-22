@@ -1,0 +1,46 @@
+nav {
+    height: 100px;
+}
+
+.navbar-brand {
+    font-size: 1.5em;
+    font-weight: 600;
+}
+
+.header {
+    position: relative;
+    background-color: #343a40;
+    //background: url("../images/01.jpg") no-repeat center center;
+    background-size: cover;
+    padding: 12em 0;
+    z-index: 0;
+
+    &__overlay {
+        position: absolute;
+        background-color: #1b1841;
+        height: 100%;
+        width: 100%;
+        top: 0;
+        left: 0;
+        //opacity: 0.3;
+    }
+
+    &__text {
+        &__img {
+            width: 200px;
+            border-radius: 50%;
+        }
+
+        &__h1 {
+            color: white;
+            z-index: 2;
+
+        }
+
+        &__p {
+            color: white;
+            z-index: 2;
+
+        }
+    }
+}

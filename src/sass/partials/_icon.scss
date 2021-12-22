@@ -1,0 +1,32 @@
+#skills {
+    background-color: #f8f9fa;
+}
+
+.icon-wrapper {
+    text-align: center;
+    margin: 4em 0;
+    cursor: pointer;
+    padding-right: 2em;
+
+    &__icon {
+        position: absolute;
+        font-size: 3.5em;
+        color: $primary;
+        transition: all .1s;
+
+
+        &:hover {
+            font-size: 4em;
+        }
+    }
+
+    &__h2 {
+        padding-left: 2em;
+        padding-top: 3em;
+        font-size: 1.5em;
+    }
+
+    &__p {
+        padding-left: 3em;
+    }
+}
